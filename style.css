@@ -1,0 +1,159 @@
+/* --- Dasar & Tipografi --- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* --- Hero Section --- */
+.hero {
+    /* Background dinamis akan diisi via JavaScript dari JSON */
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    transition: background-image 0.5s ease-in-out; /* Animasi perpindahan gambar */
+}
+
+.hero h1 { font-size: 2.5rem; margin-bottom: 5px; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); }
+
+/* --- Layout Utama --- */
+.container {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* --- Grid System --- */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+/* --- Card Kuliner --- */
+.card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.card:hover { transform: translateY(-5px); }
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.card-content { padding: 20px; }
+
+/* --- Label Kategori --- */
+.category {
+    background: #e3f2fd;
+    color: #1976d2;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.card h3 { margin: 15px 0 10px; font-size: 1.25rem; color: #2c3e50; }
+
+.card p { color: #666; font-size: 0.9rem; margin: 5px 0; }
+
+/* --- Harga & Rating --- */
+.price {
+    font-weight: bold;
+    color: #2e7d32; /* Warna hijau untuk harga */
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.rating {
+    float: right;
+    color: #fbc02d;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* --- Search & Filter --- */
+.controls {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#searchInput {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 100%;
+    outline: none;
+}
+
+#searchInput:focus { border-color: #1976d2; }
+
+.filter-buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.btn-filter {
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #1976d2;
+    color: #1976d2;
+    transition: all 0.2s;
+}
+
+.btn-filter.active, .btn-filter:hover {
+    background: #1976d2;
+    color: #fff;
+}
+
+/* --- Modal Detail --- */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 5% auto;
+    padding: 25px;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 12px;
+    position: relative;
+    max-height: 85vh;
+    overflow-y: auto;
+}
+
+.close-btn {
+    position: absolute;
+    right: 20px; top: 10px;
+    font-size: 28px;
+    cursor: pointer;
+    color: #666;
+}

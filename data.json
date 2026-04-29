@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "nama": "Rendang",
+    "kategori": "Makanan Utama",
+    "asal": "Minangkabau, Sumatera Barat",
+    "harga_estimasi": "Rp50.000 - Rp80.000",
+    "rating": 4.9,
+    "gambar": "Gambar/rendang.jpg"
+  },
+  {
+    "id": 2,
+    "nama": "Sate Maranggi",
+    "kategori": "Makanan Utama",
+    "asal": "Purwakarta, Jawa Barat",
+    "harga_estimasi": "Rp30.000 - Rp60.000",
+    "rating": 4.7,
+    "gambar": "Gambar/sate_maranggi.jpg"
+  },
+  {
+    "id": 3,
+    "nama": "Gudeg",
+    "kategori": "Makanan Utama",
+    "asal": "Yogyakarta",
+    "harga_estimasi": "Rp25.000 - Rp45.000",
+    "rating": 4.6,
+    "gambar": "Gambar/gudeg.jpg"
+  },
+  {
+    "id": 4,
+    "nama": "Pempek Kapal Selam",
+    "kategori": "Camilan",
+    "asal": "Palembang, Sumatera Selatan",
+    "harga_estimasi": "Rp20.000 - Rp35.000",
+    "rating": 4.8,
+    "gambar": "Gambar/pempek_kapal_selam.jpg"
+  },
+  {
+    "id": 5,
+    "nama": "Nasi Liwet",
+    "kategori": "Makanan Utama",
+    "asal": "Solo, Jawa Tengah",
+    "harga_estimasi": "Rp15.000 - Rp30.000",
+    "rating": 4.5,
+    "gambar": "Gambar/nasi_liwet.jpg"
+  },
+  {
+    "id": 6,
+    "nama": "Coto Makassar",
+    "kategori": "Sop & Soto",
+    "asal": "Makassar, Sulawesi Selatan",
+    "harga_estimasi": "Rp30.000 - Rp50.000",
+    "rating": 4.7,
+    "gambar": "Gambar/coto_makassar.jpg"
+  },
+  {
+    "id": 7,
+    "nama": "Ayam Betutu",
+    "kategori": "Makanan Utama",
+    "asal": "Bali",
+    "harga_estimasi": "Rp60.000 - Rp120.000",
+    "rating": 4.8,
+    "gambar": "Gambar/ayam_betutu.jpg"
+  },
+  {
+    "id": 8,
+    "nama": "Papeda dan Ikan Kuah Kuning",
+    "kategori": "Makanan Utama",
+    "asal": "Maluku & Papua",
+    "harga_estimasi": "Rp40.000 - Rp75.000",
+    "rating": 4.4,
+    "gambar": "Gambar/papeda_ikan_kuah_kuning.jpg"
+  },
+  {
+    "id": 9,
+    "nama": "Serabi Notosuman",
+    "kategori": "Kue Tradisional",
+    "asal": "Solo, Jawa Tengah",
+    "harga_estimasi": "Rp5.000 - Rp10.000",
+    "rating": 4.9,
+    "gambar": "Gambar/serabi_notosuman.jpg"
+  },
+  {
+    "id": 10,
+    "nama": "Es Dawet Ayu",
+    "kategori": "Minuman",
+    "asal": "Banjarnegara, Jawa Tengah",
+    "harga_estimasi": "Rp5.000 - Rp15.000",
+    "rating": 4.6,
+    "gambar": "Gambar/es_dawet_ayu.jpg"
+  }
+]
